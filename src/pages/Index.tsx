@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-header text-header-foreground py-20 md:py-28">
+      {/* <section className="bg-header text-header-foreground py-20 md:py-28">
         <div className="container mx-auto px-6 text-center">
           <div className="max-w-3xl mx-auto">
             <h1 className="font-display font-bold mb-6 animate-fade-in">
@@ -31,11 +31,20 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
-      
+      </section> */}
+
       {/* Iframe Demo Section */}
-      <section id="iframe-demo" className="py-16 md:py-20">
-        <div className="container mx-auto px-6">
+      <section id="iframe-demo">
+        <iframe
+          src="https://torf2p.if.stage.bc.networkgaming.co.uk"
+          title="Interactive Demo"
+          sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+          className="w-full h-screen border-0 shadow-lg"
+          loading="lazy"
+          allowFullScreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        {/* <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <span className="inline-block px-3 py-1 text-sm rounded-full bg-primary/10 text-primary mb-4">Interactive Demo</span>
             <h2 className="font-display text-3xl md:text-4xl mb-4">Experience Our Platform</h2>
@@ -49,11 +58,11 @@ const Index = () => {
             title="Interactive Demo"
             className="max-w-5xl mx-auto shadow-xl rounded-lg overflow-hidden"
           />
-        </div>
+        </div> */}
       </section>
-      
+
       {/* Features Section */}
-      <section className="py-16 bg-secondary/50">
+      {/* <section className="py-16 bg-secondary/50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <span className="inline-block px-3 py-1 text-sm rounded-full bg-primary/10 text-primary mb-4">Features</span>
@@ -65,7 +74,7 @@ const Index = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
+      {/* <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
               <div className="bg-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg 
                   width="24" 
@@ -86,10 +95,10 @@ const Index = () => {
               <p className="text-muted-foreground">
                 Optimized for speed and efficiency, ensuring a smooth user experience at all times.
               </p>
-            </div>
-            
-            {/* Feature 2 */}
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
+            </div> */}
+
+      {/* Feature 2 */}
+      {/* <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
               <div className="bg-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg 
                   width="24" 
@@ -112,10 +121,10 @@ const Index = () => {
               <p className="text-muted-foreground">
                 Automatically adapts to any screen size, from desktop to mobile devices.
               </p>
-            </div>
-            
-            {/* Feature 3 */}
-            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
+            </div> */}
+
+      {/* Feature 3 */}
+      {/* <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-250">
               <div className="bg-primary/10 p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
                 <svg 
                   width="24" 
@@ -142,7 +151,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
