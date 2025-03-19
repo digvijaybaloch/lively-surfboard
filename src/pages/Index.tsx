@@ -36,13 +36,13 @@ const Index = () => {
       {/* Iframe Demo Section */}
       <section id="iframe-demo">
         <iframe
-          src="https://torf2p.if.stage.bc.networkgaming.co.uk"
+          src="https://bvf2p.if.stage.bc.networkgaming.co.uk/?redirect=picker&gameId=1"
           title="Interactive Demo"
           sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
           className="w-full h-screen border-0 shadow-lg"
           loading="lazy"
           allowFullScreen
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         ></iframe>
         {/* <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center mb-12">
